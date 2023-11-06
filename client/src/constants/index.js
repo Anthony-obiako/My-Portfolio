@@ -3,7 +3,6 @@ import {
   backend,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
@@ -12,15 +11,12 @@ import {
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
   veeTech,
   tonyJp,
   viclyd,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
+  dashboard,
+  youtube,
+  tenzies,
 } from "../assets";
 
 export const navLinks = [
@@ -160,37 +156,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Admin Dashboard",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "React admin dashboard that can be used to edit and monitor the data of your site or web app.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: carrent,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "node.js",
         color: "green-text-gradient",
       },
       {
@@ -198,29 +173,45 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: dashboard,
+    source_code_link: "https://github.com/Anthony-obiako/admin-dashboard",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "Youtube clone",
+    description: "A youtube web clone with react.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapidapi",
         color: "green-text-gradient",
+      },
+      {
+        name: "css3",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: youtube,
+    source_code_link: "https://github.com/Anthony-obiako/youtube-clone",
+  },
+  {
+    name: "Tenzies Game",
+    description:
+      "Web game of Tenzies with basic react and javascript functionality.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
       },
       {
         name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: tenzies,
+    source_code_link: "https://github.com/Anthony-obiako/Tenzies-game",
   },
 ];
 

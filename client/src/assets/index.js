@@ -25,9 +25,9 @@ import veeTech from "./company/veeTech.png";
 import tonyJp from "./company/tonyJp.png";
 import viclyd from "./company/viclyd.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import dashboard from "./dashboard.jpg";
+import youtube from "./youtube.jpg";
+import tenzies from "./tenzies.jpg";
 
 export {
   logo,
@@ -54,7 +54,7 @@ export {
   veeTech,
   viclyd,
   tonyJp,
-  carrent,
-  jobit,
-  tripguide,
+  dashboard,
+  youtube,
+  tenzies,
 };
